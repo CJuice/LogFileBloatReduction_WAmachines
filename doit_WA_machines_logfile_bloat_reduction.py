@@ -9,16 +9,9 @@ def main():
     import datetime
 
     # VARIABLES
-    # log_file_folders_path= r"D:\inetpub\logs\LogFiles"  # PRODUCTION
-    log_file_folders_path= r"C:\Users\Conrad.Schaefer\Documents\DoIT_WAmachinesLogFileBloatReduction\LogFileBloatReduction_WAmachines\W3SVC1_test"  # TESTING
+    log_file_folders_path = r"D:\inetpub\logs\LogFiles"  # PRODUCTION
     acceptable_age_days = datetime.timedelta(days=120)
     now = datetime.datetime.now()
-
-    # ASSERTS
-    
-    # FUNCTIONS
-
-    # CLASSES
 
     # FUNCTIONALITY
     try:

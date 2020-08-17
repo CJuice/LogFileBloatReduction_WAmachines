@@ -7,7 +7,7 @@ and deleted or passed.
 WA machines do not have visual cron so this script will need to be run manually.
 Author: CJuice
 Created: 20191203
-Revisions:
+Revisions: 20200817, CJuice, revised the acceptable days from 120 to 90. Was running the script too often at 120
 """
 
 
@@ -19,7 +19,7 @@ def main():
 
     # VARIABLES
     log_file_folders_path = r"D:\inetpub\logs\LogFiles"  # PRODUCTION
-    acceptable_age_days = datetime.timedelta(days=120)
+    acceptable_age_days = datetime.timedelta(days=90)
     now = datetime.datetime.now()
 
     # FUNCTIONALITY
